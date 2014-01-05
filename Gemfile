@@ -6,3 +6,8 @@ gem 'sqlite3'
 gem 'devise'
 gem 'rabl'
 gem 'oj'
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+end
