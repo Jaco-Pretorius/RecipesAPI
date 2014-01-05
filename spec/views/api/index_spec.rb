@@ -9,8 +9,10 @@ describe 'api/recipes/index' do
     render
   end
 
-  subject { JSON.parse(rendered) }
-  its(:length) { should == 2 }
+  context 'all recipes' do
+    subject { JSON.parse(rendered) }
+    its(:length) { should == 2 }
+  end
 
   context 'first recipe' do
     subject { JSON.parse(rendered).first }
