@@ -6,9 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-bob = User.create(email: 'bob@example.com', password: 'password', password_confirmation: 'password')
-steve = User.create(email: 'steve@example.com', password: 'password', password_confirmation: 'password')
-dave = User.create(email: 'dave@example.com', password: 'password', password_confirmation: 'password')
+bob = User.create(name: 'Bob', email: 'bob@example.com', password: 'password', password_confirmation: 'password')
+steve = User.create(name: 'Steve', email: 'steve@example.com', password: 'password', password_confirmation: 'password')
+dave = User.create(name: 'Dave', email: 'dave@example.com', password: 'password', password_confirmation: 'password')
 
 appetizer = Category.create(name: 'Appetizer')
 breakfast = Category.create(name: 'Breakfast & Brunch')
