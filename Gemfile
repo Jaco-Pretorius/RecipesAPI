@@ -4,7 +4,7 @@ gem 'rails', '4.0.2'
 gem 'sqlite3'
 
 gem 'devise'
-gem 'jbuilder'
+# gem 'jbuilder'
 gem 'rabl'
 gem 'oj'
 
